@@ -2,12 +2,15 @@
     "name": "lit-select",
     "version": "0.0.1",
     "description": "Minimalistic hybrid select library",
+    "module": "dist/esm/index.js",
     "main": "dist/index.js",
     "repository": {
         "type": "git",
-        "url": "[GIT_REPO_HERE]"
+        "url": "git@github.com:pavel-mazhuga/lit-select.git"
     },
-    "keywords": [],
+    "keywords": [
+        "select"
+    ],
     "author": "Pavel Mazhuga",
     "license": "MIT",
     "bugs": {
