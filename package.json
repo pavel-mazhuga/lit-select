@@ -1,7 +1,7 @@
 {
-    "name": "[PROJECT_NAME_HERE]",
+    "name": "lit-select",
     "version": "0.0.1",
-    "description": "[PROJECT_DESCRIPTION_HERE]",
+    "description": "Minimalistic hybrid select library",
     "main": "dist/index.js",
     "repository": {
         "type": "git",
@@ -11,9 +11,9 @@
     "author": "Pavel Mazhuga",
     "license": "MIT",
     "bugs": {
-        "url": "https://github.com/pavel-mazhuga/[PROJECT_NAME_HERE]/issues"
+        "url": "https://github.com/pavel-mazhuga/lit-select/issues"
     },
-    "homepage": "https://github.com/pavel-mazhuga/[PROJECT_NAME_HERE]#readme",
+    "homepage": "https://github.com/pavel-mazhuga/lit-select#readme",
     "scripts": {
         "prepare": "rimraf ./dist && rollup --config",
         "test": "jest"
@@ -30,13 +30,13 @@
         "rimraf": "^3.0.0",
         "rollup": "latest",
         "rollup-plugin-eslint": "latest",
-        "rollup-plugin-node-resolve": "latest",
         "rollup-plugin-terser": "latest",
         "rollup-plugin-typescript2": "latest",
         "ts-jest": "latest",
         "typescript": "latest"
     },
     "dependencies": {
+        "@rollup/plugin-node-resolve": "^8.1.0",
         "eslint-plugin-jest": "latest"
     }
 }
